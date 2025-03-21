@@ -14,89 +14,64 @@
     <script src="./src/tailwind/config.js"></script>
 
     <!-- script -->
-    <script src="./src/js/menu.js"></script>
+    <script defer src="./src/js/menu.js"></script>
 </head>
 <body>
-    
-    <!-- nav -->
-    <nav class="fixed top-0 left-0 w-full px-20 py-6 gap-4 align-center flex justify-between items-center bg-white z-10">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 w-full px-4 md:px-10 lg:px-20 py-4 md:py-6 flex justify-between items-center bg-white z-10">
         <div>
             <p class="text-2xl font-bold text-purpdocs">
                 HaloDocs
             </p>
         </div>
-
-
-        <div class="flex justify-end">
-            <ul class="flex items-center space-x-8 justify-end text-purpdocs">
-                <li>
-                    <a href="">
-                        About
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        GitHub
-                    </a>
-                </li>
-                <li>
-                    <a href="#menu-section">
-                        <button class="bg-white border-2 border-purpdocs px-4 py-2 rounded-lg font-semibold">
-                            Get Started
-                        </button>
-                    </a>
-                </li>
-            </ul>
+        <div class="hidden md:flex items-center space-x-6 text-purpdocs">
+            <a href="#">About</a>
+            <a href="#">GitHub</a>
+            <a href="#menu-section">
+                <button class="bg-white border-2 border-purpdocs px-4 py-2 rounded-lg font-semibold">
+                    Get Started
+                </button>
+            </a>
         </div>
     </nav>
 
-    <!-- main -->
-    <div class="w-full flex justify-center align-center items-center px-20 mt-16 gap-6">
-        <div class="w-1/2 h-1/2 rounded-lg flex flex-col justify-around text-purpdocs gap-4">
-            <div>
-                <p class="text-6xl font-bold">
-                    Permudah Pembelajaran dengan HaloDocs
-                </p>
-            </div>
-            <div>
-                <p class="text-lg">
-                    HaloDocs membantu kamu memahami materi dengan lebih mudah dan cepat dengan tersedianya berbagai macam materi yang bisa kamu pelajari. Dengan HaloDocs, kamu bisa belajar dimana saja dan kapan saja.
-                </p>
-            </div>
-            <div>
-                <a href="#menu-section">
-                    <button class="bg-purpdocs text-white px-4 py-2 rounded-lg font-semibold">
-                        Enroll
-                    </button>
-                </a>
-            </div>
+    <!-- Hero Section -->
+    <div class="w-full flex flex-col md:flex-row items-center px-4 md:px-10 lg:px-20 mt-20 gap-6">
+        <div class="w-full md:w-1/2 flex flex-col justify-around text-purpdocs gap-4">
+            <p class="text-4xl md:text-6xl font-bold">
+                Permudah Pembelajaran dengan HaloDocs
+            </p>
+            <p class="text-lg">
+                HaloDocs membantu kamu memahami materi dengan lebih mudah dan cepat dengan tersedianya berbagai macam materi yang bisa kamu pelajari. Dengan HaloDocs, kamu bisa belajar dimana saja dan kapan saja.
+            </p>
+            <a href="#menu-section">
+                <button class="bg-purpdocs text-white px-6 py-3 rounded-lg font-semibold">
+                    Enroll
+                </button>
+            </a>
         </div>
-
-        <div class="w-1/2 h-1/2 rounded-lg flex">
-            <img src="https://cdn-icons-png.flaticon.com/512/2456/2456838.png" alt="HaloDocs" class="w-full h-full object-cover rounded-lg">
+        <div class="w-full hidden md:block md:w-1/2">
+            <img src="https://cdn-icons-png.flaticon.com/512/2456/2456838.png" alt="HaloDocs" class="w-full max-w-xs md:max-w-md mx-auto">
         </div>
     </div>
 
     <!-- Menu Section -->
-    <div class="grid grid-cols-6 gap-4 px-20 py-32" id="menu-section">
-        <div class="col-span-2">
-            <p class="text-4xl font-bold text-purpdocs">
-                Materi
-            </p>
-        </div>
-
-        <div class="col-span-6 grid grid-cols-4 gap-4" id="menu-container">
-            <!-- Cards will be dynamically inserted here -->
+    <div class="px-4 md:px-10 lg:px-20 py-16" id="menu-section">
+        <p class="text-4xl font-bold text-purpdocs mb-6 text-center md:text-left">
+            Materi
+        </p>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" id="menu-container">
+            <!-- Cards will be inserted dynamically -->
         </div>
     </div>
 
-    <!-- footer -->
-    <footer>
-        <div class="w-full h-20 bg-purpdocs flex justify-center items-center">
-            <p class="text-white">
-                &copy; 2025 HaloDocs
-            </p>
-        </div>
+    <!-- Footer -->
+    <footer class="w-full h-20 bg-purpdocs flex justify-center items-center">
+        <p class="text-white">
+            &copy; 2025 HaloDocs
+        </p>
     </footer>
+
 </body>
 </html>
