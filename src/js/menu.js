@@ -1,7 +1,7 @@
 // Data for the menu
 const menuItems = [
     { title: "Mining", image: "https://dam.mediacorp.sg/image/upload/s--MY-3poxm--/c_fill,g_auto,h_468,w_830/f_auto,q_auto/v1/one-cms/core/2024-01-24t032917z_2_lynxmpek0m0hs_rtroptp_3_fintech-crypto-crime.jpg?itok=9N0QLgee", link: "https://wind-coach-99e.notion.site/MINING-1c0cc91346288088b496f62d601b1154?pvs=73" },
-    { title: "Pomokit", image: "https://media.post.rvohealth.io/wp-content/uploads/2020/09/AN313-Tomatoes-732x549-Thumb.jpg", link: "pomokit.html" },
+    { title: "Pomokit", image: "https://media.post.rvohealth.io/wp-content/uploads/2020/09/AN313-Tomatoes-732x549-Thumb.jpg", link: "https://wind-coach-99e.notion.site/POMOKIT-1c0cc9134628800e99edd8defaf16896" },
     { title: "Software Quality", image: "https://asset.kompas.com/crops/HEuQAw_YrU1VbMJDjsXaItfhvkc=/0x0:2160x1440/1200x800/data/photo/2023/01/16/63c4bf0783f1d.png", link: "software-quality.html" },
     { title: "Artificial Intelligence", image: "https://blob.cloudcomputing.id/images/6c9c34df-1ecb-4fee-b7ec-cc0cf88a3d26/ilustrasi-agi-l-min.jpg", link: "ai.html" },
     { title: "Cloud Computing", image: "https://jagoancloud.com/blog/wp-content/uploads/2022/11/2.-4-Jenis-Cloud-Computing-bagi-Perusahaan-Anda-scaled.jpeg", link: "cloud.html" },
